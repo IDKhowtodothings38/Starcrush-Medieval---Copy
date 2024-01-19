@@ -1,0 +1,18 @@
+{
+	id: "72121BDE4D619DDF"
+	order_index: 4
+	title: "Swordsmen Sword"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "magistuarmory:rusted_bastardsword"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": { }
+			}
+		}
+	}]
+}

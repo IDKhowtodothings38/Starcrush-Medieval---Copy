@@ -1,0 +1,470 @@
+{
+	id: "12CB1FEE40FE7401"
+	group: ""
+	order_index: 0
+	filename: "choose_a_class"
+	title: "Choose A Class"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Swordsmen"
+			icon: {
+				id: "magistuarmory:copper_bastardsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: ["A Class That Focus On Melee Attacks"]
+			dependencies: ["22E82AFA949D7C41"]
+			id: "222D051A42280177"
+			tasks: [
+				{
+					id: "7C357FC3222E1EBC"
+					type: "checkmark"
+					title: "Swordsmen"
+				}
+				{
+					id: "09BA4F74D63BF1B4"
+					type: "gamestage"
+					title: "No Class"
+					stage: "No Class"
+				}
+			]
+			rewards: [
+				{
+					id: "0F4B29D63389B499"
+					type: "gamestage"
+					title: "Swordsmen"
+					team_reward: false
+					auto: "disabled"
+					exclude_from_claim_all: true
+					ignore_reward_blocking: true
+					stage: "Swordsmen"
+				}
+				{
+					id: "71826DCF1B7D02B6"
+					type: "gamestage"
+					team_reward: false
+					auto: "enabled"
+					ignore_reward_blocking: true
+					stage: "No Class"
+					remove: true
+				}
+				{
+					id: "4ADA02D4FB6946A8"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 6550142565359715990L
+				}
+				{
+					id: "6322B519FFE0C789"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5800256409895165931L
+				}
+				{
+					id: "6A9948061499CCCC"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 5206817605595517983L
+				}
+				{
+					id: "59D0110A77354ECB"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 67516482639913374L
+				}
+				{
+					id: "25E0EA242ED9AABF"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 8219662911499509215L
+				}
+				{
+					id: "213AAA40C51C35E8"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 616933293278659144L
+				}
+			]
+		}
+		{
+			title: "No Class"
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 0.0d
+			y: -2.0d
+			shape: "square"
+			description: ["You are basic, you have NO Class"]
+			id: "22E82AFA949D7C41"
+			tasks: [{
+				id: "08D3133992D0CFE7"
+				type: "checkmark"
+				title: "No Class"
+			}]
+			rewards: [{
+				id: "3E46E09F3EC7D30D"
+				type: "gamestage"
+				title: "No Class"
+				team_reward: false
+				auto: "disabled"
+				exclude_from_claim_all: true
+				ignore_reward_blocking: true
+				stage: "No Class"
+			}]
+		}
+		{
+			title: "Ranger"
+			icon: {
+				id: "morebows:stone_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Pew Pew Bow"
+			dependencies: ["22E82AFA949D7C41"]
+			id: "761DE6E402FDEB3C"
+			tasks: [
+				{
+					id: "4FBA17E042C810E0"
+					type: "checkmark"
+					title: "Ranger"
+				}
+				{
+					id: "28BCA409FD6A72AE"
+					type: "gamestage"
+					title: "No Class"
+					stage: "No Class"
+				}
+			]
+			rewards: [
+				{
+					id: "636C73529D5FC2DC"
+					type: "gamestage"
+					title: "No Class"
+					team_reward: false
+					auto: "enabled"
+					ignore_reward_blocking: true
+					stage: "No Class"
+					remove: true
+				}
+				{
+					id: "6116372DFD3EE3D8"
+					type: "gamestage"
+					title: "Ranger"
+					team_reward: false
+					auto: "disabled"
+					ignore_reward_blocking: true
+					stage: "Ranger"
+				}
+				{
+					id: "780B4F2BFE8A4522"
+					type: "item"
+					item: {
+						id: "morebowsandarrows:dark_oak_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4BE0192041BC5710"
+					type: "item"
+					item: {
+						id: "morebowsandarrows:paper_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 20
+				}
+				{
+					id: "5723F98080202D97"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4836396E0712485C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0BDCAAE620803CF3"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "2C83C4A21D7A4561"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4D04EE278CC34184"
+					type: "item"
+					item: {
+						id: "divine_weaponry:iron_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0F02F4496D151A4A"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 32
+				}
+				{
+					id: "71612EADB8052E8F"
+					type: "item"
+					item: {
+						id: "apotheosis:explosive_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Mage"
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Mage Things And Stuff"]
+			dependencies: ["22E82AFA949D7C41"]
+			id: "1F7A7D2969EFC5EA"
+			tasks: [
+				{
+					id: "32767AC314F3798D"
+					type: "checkmark"
+					title: "Mage"
+				}
+				{
+					id: "229F784FF97B9AE0"
+					type: "gamestage"
+					title: "No Class"
+					stage: "No Class"
+				}
+			]
+			rewards: [
+				{
+					id: "307E1A2629C4EF20"
+					type: "gamestage"
+					title: "No Class"
+					team_reward: false
+					auto: "enabled"
+					ignore_reward_blocking: true
+					stage: "No Class"
+					remove: true
+				}
+				{
+					id: "5A2B268CE358C20C"
+					type: "gamestage"
+					title: "Mage"
+					team_reward: false
+					auto: "disabled"
+					ignore_reward_blocking: true
+					stage: "Mage"
+				}
+				{
+					id: "26116C30BA0B0401"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "15272779D4162873"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "338E9EB2E2657B5B"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "07BD9CAE167E259C"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:wandering_magician_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "60B90D57F14FC9F3"
+					type: "item"
+					item: "irons_spellbooks:copper_spell_book"
+				}
+				{
+					id: "167755806EE79138"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:scroll"
+						Count: 1b
+						tag: {
+							ISB_spell: {
+								type: 4
+								level: 1
+							}
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "712AD964D7D1234A"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:scroll"
+						Count: 1b
+						tag: {
+							ISB_spell: {
+								type: 10
+								level: 1
+							}
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "78B33E289359924A"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:scroll"
+						Count: 1b
+						tag: {
+							ISB_spell: {
+								type: 7
+								level: 1
+							}
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5C942D738ECD3B9B"
+					type: "item"
+					item: {
+						id: "irons_spellbooks:scroll"
+						Count: 1b
+						tag: {
+							ISB_spell: {
+								type: 5
+								level: 1
+							}
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

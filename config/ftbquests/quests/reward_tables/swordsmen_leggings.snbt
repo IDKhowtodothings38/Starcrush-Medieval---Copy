@@ -1,0 +1,18 @@
+{
+	id: "00EFDDE21C3C619E"
+	order_index: 2
+	title: "Swordsmen Leggings"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "magistuarmory:platemail_leggings"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": { }
+			}
+		}
+	}]
+}

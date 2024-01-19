@@ -1,0 +1,18 @@
+{
+	id: "507EA67945FBDFEB"
+	order_index: 3
+	title: "Swordsmen Boots"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "magistuarmory:chainmail_boots"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": { }
+			}
+		}
+	}]
+}

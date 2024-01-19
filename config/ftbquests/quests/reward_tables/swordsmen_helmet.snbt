@@ -1,0 +1,18 @@
+{
+	id: "484255067FC5541F"
+	order_index: 0
+	title: "Swordsmen Helmet"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "magistuarmory:barbute"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": { }
+			}
+		}
+	}]
+}

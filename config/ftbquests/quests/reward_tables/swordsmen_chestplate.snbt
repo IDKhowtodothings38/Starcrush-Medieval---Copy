@@ -1,0 +1,18 @@
+{
+	id: "5AE6C7F5846E8696"
+	order_index: 1
+	title: "Swordsmen Chestplate"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "magistuarmory:chainmail_chestplate"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": { }
+			}
+		}
+	}]
+}

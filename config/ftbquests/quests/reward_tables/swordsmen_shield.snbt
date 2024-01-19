@@ -1,0 +1,18 @@
+{
+	id: "088FC98FC3FC8248"
+	order_index: 5
+	title: "Swordsmen Shield"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "magistuarmory:wood_heatershield"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": { }
+			}
+		}
+	}]
+}
